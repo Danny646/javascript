@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>  JS title reference vs copy </title>
+</head>
+<bpdy>
+
+<script>
+let age =100;
+let age2 = age;
+console.log(age,age2);
+let name = 'Wes';
+let name2 = name;
+console.log(name,name2)
+//Start wth string,numbers and booleans.
+
+
+//Lets say we have an array.
+const players = ['Wes','Sarah', 'Chester', 'Ryan']
+//And we have to make a copy of it.
+const team = players;
+//You might think we can just do something like this.

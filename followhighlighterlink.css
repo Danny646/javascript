@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+color:black;
+    background-color:greenyellow;   
+    min-height: 100vh;
+    margin: 0; /* Important! */
+    font-family: sans-serif;
+    }
+.wrapper{
+margin:auto;
+max-width:500px;
+font-size:35px;
+line-height:-3;
+position:relative;
+
+}
+a{
+text-decoration:none;
+color:gray;
+border-radius:31px;    
+}
+
+.highlight{
+ transition: all 0.2s;
+ border-bottom:5px solid white;
+ position:absolute;
+ top:0;
+ background:white;
+ left:0;
+ z-index:-1;
+ border-radius:20px;
+ display:block;
+ box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+.menu {
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    margin:100px 0;
+  
+}
+  
+  .menu a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 20px;
+    color: black;
+  }
+  ::-moz-selection { /* Code for Firefox */
+    color: rgb(224, 155, 51);
+    background: navy;
+  }
+  
+  ::selection {
+    color: red;
+    background: rgb(21, 71, 117);
+  }
